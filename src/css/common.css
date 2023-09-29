@@ -1,12 +1,19 @@
 :root {
   --accent-color: #ecd979;
   --main-white: #fcf9f9;
+  --gray: rgba(252, 249, 249, 0.4);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #1c2225;
+  color: rgba(252, 249, 249, 0.4);
 }
 
 .visually-hidden {
