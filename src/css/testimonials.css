@@ -26,9 +26,6 @@
     }
     .testimonials-photo-wrap {
         position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 34px;
         margin-bottom: 20px;
     }
