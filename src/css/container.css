@@ -1,8 +1,7 @@
 @media screen and (min-width: 320px) {
   .container {
     min-width: 320px;
-    padding-left: 20px;
-    padding-right: 20px;
+
     margin-left: auto;
     margin-right: auto;
   }
@@ -11,6 +10,8 @@
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
