@@ -6,7 +6,7 @@
 
 .hero-header {
   width: 335px;
-  color: var(--white, #fcf9f9);
+  color: var(--main-white);
   font-size: 44px;
   font-style: normal;
   font-weight: 400;
@@ -14,7 +14,7 @@
   letter-spacing: -0.03em;
 }
 .hero-header-element {
-  color: var(--white, #ecd979);
+  color: var(--accent-color);
 }
 .hero-handmade {
   display: none;
@@ -29,7 +29,7 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: inherit;
-  color: var(--white, #fcf9f9);
+  color: var(--main-white);
   margin-bottom: 40px;
   margin-left: 70px;
   font-size: 14px;
@@ -38,7 +38,7 @@
   font-weight: 600;
 }
 .hero-button-icon {
-  fill: var(--yellow, #ecd979);
+  fill: var(--accent-color);
 }
 
 .hero-button:hover,
@@ -54,10 +54,7 @@
     padding-top: 80px;
     margin-bottom: 100px;
   }
-  .hero-container {
-    display: flex;
-    gap: 8px;
-  }
+
   .hero-handmade {
     display: flex;
     flex-direction: column;
@@ -69,10 +66,10 @@
     width: 115px;
   }
   .hero-handmade-icon {
-    fill: var(--yellow, #ecd979);
+    fill: var(--accent-color);
   }
   .hero-handmade-text {
-    color: rgba(252, 249, 249, 0.4);
+    color: var(--gray);
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -104,6 +101,7 @@
 @media screen and (min-width: 1280px) {
   .hero {
     margin-bottom: 150px;
+    padding: 100px;
   }
   .hero-title-and-image-container {
     display: flex;
