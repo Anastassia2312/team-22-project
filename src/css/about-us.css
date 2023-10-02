@@ -25,19 +25,15 @@ letter-spacing: -0.56px;
 }
 .about-us-img-menu {
     border-radius: 4px;
-    
-margin-right: auto;
-margin-left: auto;
 }
 .about-us-img {
     max-width: 375px;
 background-repeat: no-repeat;
-background-size: 459px 408px;
-padding: 0px 0.615px 0.455px 0px;
+background-position: bottom right;
 background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
-   url(/img/about-us/elements-desktop.png) bottom right;
+   url(/img/about-us/elements-desktop.png);
 }
 
 @media screen and (min-resolution: 192dpi) {}
@@ -69,7 +65,7 @@ letter-spacing: -0.64px;
    max-width: 768px;
 }
 }
-@media screen and (min-width: 1158px) and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
 .about-us-section {
     display: inline-flex;
 }
@@ -82,12 +78,13 @@ letter-spacing: -0.64px;
   margin-bottom: unset;
     }
 .about-us-name {
-   
+    text-align: left;
 }
 .about-us-text-first,
 .about-us-text-second {
     width: 436px;
     flex-direction: column;
+    text-align: left;
 }
 }
 
