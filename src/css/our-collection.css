@@ -1,0 +1,144 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+body{
+  font-family: 'Manrope', sans-serif;
+  background-color: #1C2225;
+}
+.header-of-section{
+  color: #FCF9F9;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.37; /* 137.5% */
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+.our-collection-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.our-collection-list-item img{
+  border-radius: 4px;
+}
+.our-collection-products{
+  overflow: hidden;
+  color:  #FCF9F9;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1; /* 100% */
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+.our-collection-price{
+  color: rgba(252, 249, 249, 0.40);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1; /* 100% */
+  letter-spacing: 0.02em;
+}
+.model-of-collection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px){
+  .our-collection .container{
+    background-image: url("../img/our-collection-img/ornament-our-collection375px.png"),
+    url("../img/our-collection-img/ornament-our-collection375px@2x.png");
+    background-size: auto 177px;
+    background-position-y: 214px;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px){
+  .our-collection .container{
+    background-image: url("../img/our-collection-img/ornament-our-collection768px.png"),
+    url("../img/our-collection-img/ornament-our-collection768px@2x.png");
+    background-size: auto 300px;
+    background-position-y: 200px;
+    background-repeat: no-repeat;
+  }
+  .our-collection-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+  .our-collection-list-item{
+    width: calc((100% - 20px) / 2);
+  }
+  .our-collection-list-item img{
+    width: 342px;
+    height: 430px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .our-collection{
+    background-image: url("../img/our-collection-img/ornament-our-collection1280px.png"),
+    url("../img/our-collection-img/ornament-our-collection1280px@2x.png");
+    background-size: auto 300px;
+    background-position-y: 200px;
+    background-repeat: no-repeat;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .our-collection-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+  }
+  .our-collection-list-item{
+    width: calc((100% - 40px) / 3);
+  }
+  .our-collection-list-item img{
+    width: 347px;
+    height: 430px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .our-collection{
+    background-image: url("../img/our-collection-img/ornament-our-collection1280px.png"),
+    url("../img/our-collection-img/ornament-our-collection1280px@2x.png");
+    background-size: auto 300px;
+    background-position-y: 210px;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+  }
+  .our-collection-list-item img{
+    width: 400px;
+    height: 430px;
+  }
+}
