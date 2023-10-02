@@ -1,0 +1,140 @@
+.hero {
+  position: relative;
+  padding-top: 60px;
+  margin-bottom: 80px;
+}
+
+.hero-header {
+  width: 335px;
+  color: var(--white, #fcf9f9);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: -0.03em;
+}
+.hero-header-element {
+  color: var(--white, #ecd979);
+}
+.hero-handmade {
+  display: none;
+}
+.hero-button {
+  margin-top: 20px;
+  display: flex;
+  padding: 16px 36px;
+  width: 146px;
+  height: 48px;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: inherit;
+  color: var(--white, #fcf9f9);
+  margin-bottom: 40px;
+  margin-left: 70px;
+  font-size: 14px;
+  gap: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.hero-button-icon {
+  fill: var(--yellow, #ecd979);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  border: 1px solid var(--yellow, #ecd979);
+}
+.hero-small-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 80px;
+    margin-bottom: 100px;
+  }
+  .hero-container {
+    display: flex;
+    gap: 8px;
+  }
+  .hero-handmade {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    right: 32px;
+    width: 115px;
+  }
+  .hero-handmade-icon {
+    fill: var(--yellow, #ecd979);
+  }
+  .hero-handmade-text {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+  .hero-header {
+    width: 548px;
+    font-size: 54px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    margin-top: 26px;
+  }
+  .hero-button {
+    width: 168px;
+    margin-top: 40px;
+    margin-left: 140px;
+    padding: 14px 39px;
+    font-size: 16px;
+  }
+  .hero-small-image {
+    display: block;
+    position: absolute;
+    right: 32px;
+    bottom: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero {
+    margin-bottom: 150px;
+  }
+  .hero-title-and-image-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+  .hero-handmade {
+    top: 118px;
+    right: 100px;
+  }
+  .hero-header {
+    width: 518px;
+    margin-top: 94px;
+  }
+  .hero-small-image {
+    right: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-handmade {
+    top: 166px;
+  }
+  .hero-header {
+    width: 630px;
+    font-size: 64px;
+    margin-top: 66px;
+    line-height: 1.16;
+  }
+  .hero-title-and-image-container {
+    justify-content: flex-end;
+  }
+}
