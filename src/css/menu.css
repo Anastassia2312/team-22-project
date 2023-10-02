@@ -84,6 +84,10 @@
     text-transform: uppercase;
     text-align: right;
   }
+
+  .close-icon-tablet {
+    display: none;
+  }
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
@@ -101,6 +105,16 @@
 
   .close-button {
     display: none;
+  }
+
+  .close-icon {
+    display: none;
+  }
+
+  .menu-tel {
+    color: var(--main-color);
+    font-size: 14px;
+    line-height: 1.43; /* 142.857% */
   }
 
   .tel-wrapper {
