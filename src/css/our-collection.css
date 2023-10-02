@@ -119,6 +119,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 150px;
+    row-gap: 40px;
   }
   .our-collection-list-item{
     width: calc((100% - 40px) / 3);
