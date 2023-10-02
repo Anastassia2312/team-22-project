@@ -1,0 +1,96 @@
+.about-us-section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about-us-section-menu {
+    margin-bottom: 50px;
+}
+.about-us-name {
+color: #FCF9F9;
+font-size: 44px;
+font-weight: 500;
+line-height: 1.45;
+letter-spacing: -1.32px;
+margin-bottom: 40px;
+}
+.about-us-text {
+    color: rgba(252, 249, 249, 0.40);
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.56px;
+}
+.about-us-text-first {
+    margin-bottom: 20px;
+}
+.about-us-img-menu {
+    border-radius: 4px;
+    
+margin-right: auto;
+margin-left: auto;
+}
+.about-us-img {
+    max-width: 375px;
+background-repeat: no-repeat;
+background-size: 459px 408px;
+padding: 0px 0.615px 0.455px 0px;
+background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+   url(/img/about-us/elements-desktop.png) bottom right;
+}
+
+@media screen and (min-resolution: 192dpi) {}
+
+@media screen and (min-width: 768px) {
+    .about-us-section {
+  padding-left: 32px;
+  padding-right: 32px;
+    }
+    .about-us-section-menu {
+ margin-bottom: 40px;
+    }
+    .about-us-name {
+   color: #FCF9F9;
+   font-size: 44px;
+  font-weight: 500;
+ line-height: 1.45;
+ letter-spacing: -1.32px;
+    margin-bottom: 40px;
+    }  
+   .about-us-text {
+color: rgba(252, 249, 249, 0.40);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.64px;
+}
+.about-us-img {
+   max-width: 768px;
+}
+}
+@media screen and (min-width: 1158px) and (max-width: 1280px) {
+.about-us-section {
+    display: inline-flex;
+}
+.about-us-section {
+    padding-left: 100px;
+    padding-right: 100px;
+      }
+  .about-us-section-menu {
+  margin-right: 50px;
+  margin-bottom: unset;
+    }
+.about-us-name {
+   
+}
+.about-us-text-first,
+.about-us-text-second {
+    width: 436px;
+    flex-direction: column;
+}
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px), 
+  screen and (min-resolution: 2dppx) and (min-width: 1158px),
+  screen and (min-device-pixel-ratio: 2) and (min-width:1158px) {}
