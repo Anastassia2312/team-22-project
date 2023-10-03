@@ -114,6 +114,10 @@
     justify-content: center;
   }
 
+  .close-icon-tablet {
+    stroke: var(--main-color);
+  }
+
   .close-button {
     display: none;
   }
