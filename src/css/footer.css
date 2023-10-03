@@ -2,7 +2,7 @@
     width: 375px;
     height: 649px;
     border-top: 1px solid rgba(252, 249, 249, 0.10);
-    background-image: url("img/menu/footer-logo/footer-logo-mobile.png");
+    background-image: url("/img/footer-logo/footer-logo-mobile.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 452px 171px;
@@ -51,7 +51,7 @@
 screen and (min-resolution:2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .footer-section {
-        background-image: url("img/menu/footer-logo/footer-logo-mobile@2x.png");
+        background-image: url("/img/footer-logo/footer-logo-mobile@2x.png");
     }
 }
 
@@ -66,7 +66,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .footer-section {
         width: 768px;
         height: 370px;
-        background-image: url("img/menu/footer-logo/footer-logo-tablet.png");
+        background-image: url("/img/footer-logo/footer-logo-tablet.png");
         background-position: right;
         background-size: 155px 400px;
     }
@@ -97,7 +97,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 screen and (min-resolution:2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .footer-section {
-        background-image: url("img/menu/footer-logo/footer-logo-tablet@2x.png");
+        background-image: url("/img/footer-logo/footer-logo-tablet@2x.png");
     }
 }
 
@@ -106,7 +106,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .footer-section {
         width: 1280px;
         height: 363px;
-        background-image: url("img/menu/footer-logo/footer-logo/footer-logo-desktop-1280.png");
+        background-image: url("/img/footer-logo/footer-logo-desktop-1280.png");
         background-position: right bottom;
         background-size: 334px 360px;
     }
@@ -133,7 +133,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 screen and (min-resolution:2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .footer-section {
-        background-image: url("img/menu/footer-logo/footer-logo-desktop-1280@2x.png");
+        background-image: url("/img/footer-logo/footer-logo-desktop-1280@2x.png");
     }
 }
 
@@ -141,7 +141,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
 
     .footer-section {
         width: 1440px;
-        background-image: url("img/menu/footer-logo/footer-logo/footer-logo-desktop-1440.png");
+        background-image: url("/img/footer-logo/footer-logo-desktop-1440.png");
         background-size: 464px 363px;
     }
 
@@ -151,6 +151,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
 screen and (min-resolution:2dppx) and (min-width: 1440px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .footer-section {
-        background-image: url("img/menu/footer-logo/footer-logo-desktop-1440@2x.png");
+        background-image: url("/img/footer-logo/footer-logo-desktop-1440@2x.png");
     }
 }
