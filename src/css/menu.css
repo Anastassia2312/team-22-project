@@ -84,10 +84,6 @@
     text-transform: uppercase;
     text-align: right;
   }
-
-  .close-icon-tablet {
-    display: none;
-  }
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
@@ -119,10 +115,6 @@
   }
 
   .close-button {
-    display: none;
-  }
-
-  .close-icon {
     display: none;
   }
 
