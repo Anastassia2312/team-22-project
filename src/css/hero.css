@@ -106,7 +106,7 @@
   .hero-title-and-image-container {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-start;
+    justify-content: flex-end;
     gap: 40px;
   }
   .hero-handmade {
@@ -131,8 +131,5 @@
     font-size: 64px;
     margin-top: 66px;
     line-height: 1.16;
-  }
-  .hero-title-and-image-container {
-    justify-content: flex-end;
   }
 }
