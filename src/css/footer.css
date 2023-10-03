@@ -18,7 +18,7 @@
 }
 
 .footer-item {
-    color: #FCF9F9;
+    color: var(--main-white);
     font-family: 'Manrope', sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -30,7 +30,7 @@
 
 .footer-main-text {
     width: 335px;
-    color: #FCF9F9;
+    color: var(--main-white);
     font-family: 'Manrope', sans-serif;
     font-size: 44px;
     font-style: normal;
@@ -44,7 +44,7 @@
 }
 
 .footer-main-text-span {
-    color: #ECD979;
+    color: var(--accent-color);
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
