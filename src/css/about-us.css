@@ -24,25 +24,19 @@ width: 335px;
 }
 .about-us-img {
     border-radius: 4px;
-
 }
-.about-us-img { 
-    max-width: 375px;
+.about-us-section {  
+
 background-repeat: no-repeat;
 background-size: 458px 408px;
-background-position: bottom right;
-background-image: linear-gradient(
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)),
-   url(/img/about-us/elements-mobile.png);
+background-image: url(/img/about-us/elements-mobile.png);
+background-position: right bottom;
+
 }
 
 @media screen and (min-resolution: 192dpi) {
     .about-us-img {
-        background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),
-           url(/img/about-us/elements@2x-mobile.png);   
+        background-image: url(/img/about-us/elements@2x-mobile.png);   
     }
 }
 
@@ -68,14 +62,12 @@ line-height: normal;
 letter-spacing: -0.04em;
 width: 704px;
 }
-.about-us-img {
+.about-us-container {
    max-width: 768px;
    background-size: 544px 484px;
-background-image: linear-gradient(
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)),
-   url(/img/about-us/elements-desktop.png);
+background-image: url(/img/about-us/elements-desktop.png);
 }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -98,10 +90,7 @@ background-image: linear-gradient(
 .about-us-img {
     max-width: 1280px;
     background-size: 544px 483px;
- background-image: linear-gradient(
-     rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)),
-    url(/img/about-us/elements-desktop.png);
+ background-image: url(/img/about-us/elements-desktop.png);
  }
 }
 
@@ -109,9 +98,13 @@ background-image: linear-gradient(
   screen and (min-resolution: 2dppx) and (min-width: 1280px),
   screen and (min-device-pixel-ratio: 2) and (min-width:1280px) {
     .about-us-img {
-        background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),
-           url(/img/about-us/elements@2x-desktop.png);   
+        background-image: url(/img/about-us/elements@2x-desktop.png);   
     }
   }
+  @media screen and (min-width: 1440px) {
+.about-us-text-first,
+.about-us-text-second {
+    width: 481px;
+  }
+  }
+  
