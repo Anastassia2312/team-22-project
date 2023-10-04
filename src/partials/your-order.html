@@ -1,11 +1,12 @@
 <section class="section-your-order container">
     <div class="your-order-container">
-        <h2 class="your-order-h2"> <span class="span-your-order-h2">Your order</span> is our priority: Personalized
-            approach and quality of
-            service</h2>
-        <img class="your-order-img" srcset="./img/your-order/Rectangle 42481@2x.jpg"
-            src="./img/your-order/Rectangle 42481.jpg" alt="" width="524" height="521">
         <div class="your-order-inputs">
+            <div class="container-your-order-h2">
+                <h2 class="your-order-h2"> <span class="span-your-order-h2">Your order</span> is our priority:
+                    Personalized
+                    approach and quality of
+                    service</h2>
+            </div>
             <form class="your-order-form">
                 <label class="label-inputs-1">
                     <input class="section-your-order-inputs-1 input-text input-content" type="tap-your-name"
@@ -20,14 +21,18 @@
                         type="comments" placeholder="Comements">
                 </label>
             </form>
+            <div class="button-container">
+                <button class="your-order-button" type="submit">
+                    Send
+                    <svg class="your-order-svg" width="26" height="10">
+                        <use href="./img/sprite.svg#icon-pointer"></use>
+                    </svg>
+                </button>
+            </div>
         </div>
-        <div class="button-container">
-            <button class="your-order-button" type="submit">
-                Send
-                <svg class="your-order-svg" width="24" height="10">
-                    <use href="/src/img/sprite.svg#icon-pointer"></use>
-                </svg>
-            </button>
+        <div class="container-image-your-order">
+            <img class="your-order-img" srcset="./img/your-order/Rectangle 42481@2x.jpg"
+                src="./img/your-order/Rectangle 42481.jpg" alt="" width="524" height="521">
         </div>
     </div>
 </section>
