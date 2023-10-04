@@ -1,0 +1,130 @@
+
+.about-us-name {
+color: var(--main-white);
+font-size: 44px;
+font-weight: 500;
+line-height: 1.45;
+letter-spacing: -0.03em;
+margin-bottom: 40px;
+}
+.about-us-text-first,
+.about-us-text-second {
+color: var(--gray);
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.04em;
+width: 335px;
+}
+.about-us-text-first {
+    margin-bottom: 20px;
+}
+.about-us-img-menu {
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 767px) {
+    .about-us-container {
+        padding-top: 80px;
+        padding-bottom: 62px;
+background-repeat: no-repeat;
+background-size: 250px;
+background-image: url(/img/about-us/elements-mobile.png);
+background-position: right bottom;}
+}
+
+@media screen and (min-resolution: 192dpi) {
+    .about-us-img {
+        background-image: url(/img/about-us/elements@2x-mobile.png);   
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    
+    .about-us-name {
+   color: var(--main-white);
+   font-size: 44px;
+  font-weight: 500;
+ line-height: 1.45;
+ letter-spacing: -0.03em;
+    margin-bottom: 40px;
+    }  
+   .about-us-text-first,
+   .about-us-text-second {
+color: var(--gray);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.04em;
+width: 704px;
+}
+.about-us-container {
+    padding-bottom: 50px;
+    padding-top: 100px;
+   background-size: 368px;
+   
+background-image: url(/img/about-us/elements-desktop.png);
+background-position:  100% 100%;
+background-repeat: no-repeat;
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+.about-us-container {
+    display: flex;
+    justify-content: center;
+align-items: center;
+gap: 50px;
+padding-top: 150px;
+padding-bottom: 80px;
+background-size: 384px;
+background-image: url(/img/about-us/elements-desktop1280.png);
+background-position:  100% 100%;
+background-repeat: no-repeat;
+}
+
+  .about-us-section-menu {
+  margin-right: 50px;
+  margin-bottom: unset;
+    }
+.about-us-name {
+    text-align: left;
+}
+.about-us-text-first,
+.about-us-text-second {
+    width: 436px;
+    flex-direction: column;
+    text-align: left;
+}
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px), 
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width:1280px) {
+    .about-us-section {
+        background-image: url(/img/about-us/elements@2x-desktop1280png.png);   
+    }
+  }
+  @media screen and (min-width: 1440px) {
+.about-us-text-first,
+.about-us-text-second {
+    width: 481px;
+  }
+  .about-us-section {
+    max-width: 1440px;
+    padding-bottom: 80px;
+    background-size: 544px 483px;
+ background-image: url(/img/about-us/elements-desktop.png);
+ background-position:  100% 100%;
+background-repeat: no-repeat;
+ }
+  }
+  @media screen and (min-resolution: 192dpi) and (min-width: 1440px), 
+  screen and (min-resolution: 2dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 2) and (min-width:1440px) {
+    .about-us-section {
+        background-image: url(/img/about-us/elements@2x-desktop1280png.png);   
+    }
+  }
+  
