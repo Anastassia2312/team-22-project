@@ -26,12 +26,17 @@ width: 335px;
     border-radius: 4px;
 }
 .about-us-section {  
+    margin: 0 auto;
+}
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .about-us-section {
+ max-width: 375px;
+ padding-bottom: 62px;
 background-repeat: no-repeat;
-background-size: 458px 408px;
+background-size: 250px 408px;
 background-image: url(/img/about-us/elements-mobile.png);
-background-position: right bottom;
-
+background-position: right bottom;}
 }
 
 @media screen and (min-resolution: 192dpi) {
@@ -40,10 +45,9 @@ background-position: right bottom;
     }
 }
 
-@media screen and (min-width: 768px) {
-    
-    .about-us-section-menu {
- margin-bottom: 40px;
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .about-us-section {
+  padding-bottom: 50px;
     }
     .about-us-name {
    color: #FCF9F9;
@@ -66,6 +70,8 @@ width: 704px;
    max-width: 768px;
    background-size: 544px 484px;
 background-image: url(/img/about-us/elements-desktop.png);
+background-position:  100% 100%;
+background-repeat: no-repeat;
 }
 
 }
@@ -73,7 +79,13 @@ background-image: url(/img/about-us/elements-desktop.png);
 @media screen and (min-width: 1280px) {
 .about-us-container {
     display: flex;
-} 
+    justify-content: center;
+align-items: center;
+
+}
+.about-us-container-text { 
+    margin-right: 50px;
+}
   .about-us-section-menu {
   margin-right: 50px;
   margin-bottom: unset;
@@ -87,18 +99,21 @@ background-image: url(/img/about-us/elements-desktop.png);
     flex-direction: column;
     text-align: left;
 }
-.about-us-img {
+.about-us-section {
     max-width: 1280px;
+    padding-bottom: 80px;
     background-size: 544px 483px;
- background-image: url(/img/about-us/elements-desktop.png);
+ background-image: url(/img/about-us/elements-desktop1280.png);
+ background-position:  100% 100%;
+background-repeat: no-repeat;
  }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px), 
   screen and (min-resolution: 2dppx) and (min-width: 1280px),
   screen and (min-device-pixel-ratio: 2) and (min-width:1280px) {
-    .about-us-img {
-        background-image: url(/img/about-us/elements@2x-desktop.png);   
+    .about-us-section {
+        background-image: url(/img/about-us/elements@2x-desktop1280png.png);   
     }
   }
   @media screen and (min-width: 1440px) {
@@ -106,5 +121,20 @@ background-image: url(/img/about-us/elements-desktop.png);
 .about-us-text-second {
     width: 481px;
   }
+  .about-us-section {
+    max-width: 1440px;
+    padding-bottom: 80px;
+    background-size: 544px 483px;
+ background-image: url(/img/about-us/elements-desktop.png);
+ background-position:  100% 100%;
+background-repeat: no-repeat;
+ }
+  }
+  @media screen and (min-resolution: 192dpi) and (min-width: 1440px), 
+  screen and (min-resolution: 2dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 2) and (min-width:1440px) {
+    .about-us-section {
+        background-image: url(/img/about-us/elements@2x-desktop1280png.png);   
+    }
   }
   
