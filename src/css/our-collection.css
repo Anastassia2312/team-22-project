@@ -210,7 +210,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
   .our-collection{
-    background-image: url(./img/our-collection-img/ornament-our-collection1280px@2x.png");
+    background-image: url("./img/our-collection-img/ornament-our-collection1280px@2x.png");
     background-size: auto 300px;
   }
   .our-collection .container{
