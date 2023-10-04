@@ -1,5 +1,11 @@
 /*------Header--------*/
 .header {
+  margin-left: 20x;
+  margin-right: 20px;
+}
+
+.container {
+  width: 100%;
 }
 
 .container-header {
@@ -33,6 +39,13 @@
   .d-md-flex {
     display: flex;
   }
+
+  .d-sm-flex {
+    display: none;
+  }
+  .d-md-block {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -51,7 +64,7 @@
 }
 
 .header-logo {
-  margin-right: 87px;
+  gap: 87px;
 }
 
 @media screen and (min-width: 768px) {
@@ -73,6 +86,9 @@
   .header-nav-list {
     gap: 25px;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 156px;
   }
 }
 .header-nav-link {
@@ -84,17 +100,33 @@
     padding-bottom: 10px;
     line-height: 1.28;
     text-transform: uppercase;
-    transition: color #ecd979;
+    transition: color var(accent-color);
   }
 
   .header-nav-links:hover,
   .header-nav-links:focus {
-    color: color #ecd979;
+    color: var(accent-color);
   }
 }
 .current {
 }
-.header-contacts {
+
+@media screen and (min-width: 320px) {
+  .header-contacts {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-contacts {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-contacts {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -104,7 +136,7 @@
     justify-content: center;
     width: 193px;
     height: 48px;
-    color: var(--white, #fcf9f9);
+    color: var(--main-white);
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     text-transform: uppercase;
@@ -116,7 +148,7 @@
 
   .phone-link:hover,
   .phone-link:focus {
-    border-color: var(--yellow);
+    border-color: var(--accent-color);
   }
 }
 
@@ -148,12 +180,12 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background: rgba(252, 249, 249, 0.1);
-  transition: background-color 250ms, border-color #ecd979;
+  transition: background-color 250ms, border-color var(--accent-color);
 }
 
 .social-header-link:focus {
   background-color: transparent;
-  border-color: #ecd979;
+  border-color: var(--accent-color);
 }
 
 @media screen and (min-width: 1280px) {
@@ -165,14 +197,16 @@
   .social-link:hover,
   .social-link:focus {
     scale: 1.15;
-    border-color: #ecd979;
+    border-color: var(--accent-color);
     animation: 1.2s ease-in-out 0s normal none infinite running
       trambling-animation;
   }
 }
 
 .social-header-icon {
+  fill: var(--main-white);
 }
+
 .mobile-open-menu-btn {
   background-color: transparent;
   border: none;
@@ -182,5 +216,12 @@
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .mobile-open-menu-btn {
+    display: none;
+  }
+}
+
 .open-mobile-menu-icon {
+  stroke: var(--accent-color);
 }
