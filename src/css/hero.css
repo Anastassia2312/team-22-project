@@ -103,6 +103,7 @@
     margin-bottom: 150px;
     padding: 100px;
   }
+
   .hero-title-and-image-container {
     display: flex;
     flex-direction: row-reverse;
