@@ -1,11 +1,11 @@
 /*------Header--------*/
 .header {
-  margin-left: 20x;
-  margin-right: 20px;
 }
 
 .container {
-  width: 100%;
+  /*width: 100%;*/
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container-header {
@@ -69,7 +69,7 @@
 
 @media screen and (min-width: 768px) {
   .header-logo {
-    margin-right: 440px;
+    margin-left: 18px;
   }
 }
 
@@ -162,7 +162,8 @@
 
 @media screen and (min-width: 768px) {
   .header-social-list {
-    margin-left: 0;
+    /*margin-left: 0;*/
+    margin-right: 20px;
   }
 }
 
@@ -216,7 +217,7 @@
   align-items: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .mobile-open-menu-btn {
     display: none;
   }
