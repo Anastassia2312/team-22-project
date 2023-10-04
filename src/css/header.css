@@ -1,21 +1,125 @@
-.header {
-  padding: 20px 0;
+/* --- MOBILE --- */
+
+.header-menu {
+  display: none;
 }
 
-.nav-list {
+.header-tel-wrap {
+  display: none;
+}
+
+.header {
+  padding-top: 20px;
+}
+.header-wrap {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: space-between;
+}
+.header-address {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.open-mobile-menu-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.open-mobile-menu-icon {
+  stroke: var(--accent-color)
 }
+
+.header-social-list {
+  display: flex;
+  gap: 12px;
+}
+
+.header-social-item {
+  display: flex;
+  padding: 8px;
+  width: 44px;
+  height: 44px;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+  background: rgba(252, 249, 249, 0.10);
+  
+}
+.header-icon {
+  fill: var(--main-white);
+  opacity: 0.8;
+}
+
+/* --- TABLET --- */
+
+@media screen and (min-width: 768px) {
+
+.header-address {
+  gap: 20px;
+  }
+}
+
+/* --- DESKTOP --- */
+
+@media screen and (min-width: 1280px) {
+  .open-mobile-menu-btn {
+    display: none;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  .header-logo {
+    margin-right: 60px;
+  }
+  .header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-menu {
+    display: flex;
+    gap: 25px;
+  }
+
+  .header-tel-wrap {
+    display: flex;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+  }
+  .header-menu-item {
+    color: var(--main-white);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.29;
+      text-transform: uppercase;
+  }
+  .header-social-item:focus,
+  .header-social-item:hover {
+    border: 1px solid var(--accent-color);
+  }
+  .header-tel-wrap:focus,
+  .header-tel-wrap:hover {
+    border: 1px solid var(--accent-color);
+  }
+  .header-menu-item:focus,
+  .header-menu-item:hover {
+    color: var(--accent-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    padding-top: 18px;
+    }
+}
+
