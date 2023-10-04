@@ -19,22 +19,16 @@ width: 335px;
 .about-us-text-first {
     margin-bottom: 20px;
 }
-.about-us-img {
-    margin-top: 50px;
-}
-.about-us-img {
+.about-us-img-menu {
     border-radius: 4px;
 }
-.about-us-section {  
-    margin: 0 auto;
-}
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
-    .about-us-section {
- max-width: 375px;
- padding-bottom: 62px;
+@media screen and (max-width: 767px) {
+    .about-us-container {
+        padding-top: 80px;
+        padding-bottom: 62px;
 background-repeat: no-repeat;
-background-size: 250px 408px;
+background-size: 250px;
 background-image: url(/img/about-us/elements-mobile.png);
 background-position: right bottom;}
 }
@@ -46,9 +40,7 @@ background-position: right bottom;}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    .about-us-section {
-  padding-bottom: 50px;
-    }
+    
     .about-us-name {
    color: var(--main-white);
    font-size: 44px;
@@ -67,8 +59,10 @@ letter-spacing: -0.04em;
 width: 704px;
 }
 .about-us-container {
-   max-width: 768px;
-   background-size: 544px 484px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+   background-size: 368px;
+   
 background-image: url(/img/about-us/elements-desktop.png);
 background-position:  100% 100%;
 background-repeat: no-repeat;
@@ -81,11 +75,15 @@ background-repeat: no-repeat;
     display: flex;
     justify-content: center;
 align-items: center;
+gap: 50px;
+padding-top: 150px;
+padding-bottom: 80px;
+background-size: 384px;
+background-image: url(/img/about-us/elements-desktop1280.png);
+background-position:  100% 100%;
+background-repeat: no-repeat;
+}
 
-}
-.about-us-container-text { 
-    margin-right: 50px;
-}
   .about-us-section-menu {
   margin-right: 50px;
   margin-bottom: unset;
@@ -99,14 +97,6 @@ align-items: center;
     flex-direction: column;
     text-align: left;
 }
-.about-us-section {
-    max-width: 1280px;
-    padding-bottom: 80px;
-    background-size: 544px 483px;
- background-image: url(/img/about-us/elements-desktop1280.png);
- background-position:  100% 100%;
-background-repeat: no-repeat;
- }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px), 
