@@ -1,6 +1,6 @@
 
 .about-us-name {
-color: #FCF9F9;
+color: var(--main-white);
 font-size: 44px;
 font-weight: 500;
 line-height: 1.45;
@@ -9,7 +9,7 @@ margin-bottom: 40px;
 }
 .about-us-text-first,
 .about-us-text-second {
-color: rgba(252, 249, 249, 0.40);
+color: var(--gray);
 font-size: 14px;
 font-weight: 400;
 line-height: normal;
@@ -50,7 +50,7 @@ background-position: right bottom;}
   padding-bottom: 50px;
     }
     .about-us-name {
-   color: #FCF9F9;
+   color: var(--main-white);
    font-size: 44px;
   font-weight: 500;
  line-height: 1.45;
@@ -59,7 +59,7 @@ background-position: right bottom;}
     }  
    .about-us-text-first,
    .about-us-text-second {
-color: rgba(252, 249, 249, 0.40);
+color: var(--gray);
 font-size: 16px;
 font-weight: 400;
 line-height: normal;
