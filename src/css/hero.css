@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   padding-top: 60px;
-  margin-bottom: 80px;
+  padding-bottom: 0;
 }
 
 .hero-header {
@@ -51,8 +51,7 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding-top: 80px;
-    margin-bottom: 100px;
+    padding-top: 106px;
   }
 
   .hero-handmade {
@@ -82,7 +81,6 @@
     font-size: 54px;
     line-height: 1.2;
     letter-spacing: -0.03em;
-    margin-top: 26px;
   }
   .hero-button {
     width: 168px;
@@ -100,8 +98,7 @@
 }
 @media screen and (min-width: 1280px) {
   .hero {
-    margin-bottom: 150px;
-    padding: 100px;
+    padding-top: 100px;
   }
 
   .hero-title-and-image-container {

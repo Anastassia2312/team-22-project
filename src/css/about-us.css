@@ -21,21 +21,25 @@
 .about-us-img-menu {
   border-radius: 4px;
 }
-
-@media screen and (max-width: 767px) {
-  .about-us-container {
-    padding-top: 80px;
-    padding-bottom: 62px;
-    background-repeat: no-repeat;
-    background-size: 250px;
-    background-image: url('/img/about-us/elements-mobile.png');
-    background-position: right bottom;
-  }
+.about-us-container-text {
+    margin-bottom: 50px;
 }
 
+@media screen and (max-width: 767px) {
+  .about-us-section {
+    padding-top: 80px;
+    padding-bottom: 62px;
+  }
+  .about-us-section {
+    
+    
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-image: url(/img/about-us/elements-mobile.png);
+}
+
+
 @media screen and (min-resolution: 192dpi) {
-  .about-us-img {
-    background-image: url('/img/about-us/elements@2x-mobile.png');
   }
 }
 
@@ -57,34 +61,35 @@
     letter-spacing: -0.04em;
     width: 704px;
   }
-  .about-us-container {
-    padding-bottom: 50px;
+  .about-us-section {
     padding-top: 100px;
+    
+  }
+  .about-us-section {
+    padding-bottom: 50px;
     background-size: 368px;
-
-    background-image: url('/img/about-us/elements-desktop.png');
-    background-position: 100% 100%;
-    background-repeat: no-repeat;
+    background-image: url(/img/about-us/elements-desktop.png);
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .about-us-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding-top: 150px;
-    padding-bottom: 80px;
+
+    .about-us-section {
+        padding-top: 150px;
+        padding-bottom: 80px;
     background-size: 384px;
-    background-image: url('/img/about-us/elements-desktop1280.png');
+    background-image: url(/img/about-us/elements-desktop1280.png);
     background-position: 100% 100%;
     background-repeat: no-repeat;
-  }
+        }
+    .about-us-container {
 
+    
+  }
   .about-us-img {
     margin-top: unset;
   }
+    
 
   .about-us-section-menu {
     margin-right: 50px;
@@ -101,13 +106,7 @@
   }
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-  screen and (min-resolution: 2dppx) and (min-width: 1280px),
-  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
-  .about-us-section {
-    background-image: url('/img/about-us/elements@2x-desktop1280png.png');
-  }
-}
+
 @media screen and (min-width: 1440px) {
   .about-us-text-first,
   .about-us-text-second {
@@ -116,16 +115,15 @@
   .about-us-section {
     max-width: 1440px;
     padding-bottom: 80px;
-    background-size: 544px 483px;
-    background-image: url('/img/about-us/elements-desktop.png');
+
+    background-size: 544px;
+    background-image: url(/img/about-us/elements-desktop.png);
+
+   
     background-position: 100% 100%;
     background-repeat: no-repeat;
   }
 }
-@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
-  screen and (min-resolution: 2dppx) and (min-width: 1440px),
-  screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
-  .about-us-section {
-    background-image: url('/img/about-us/elements@2x-desktop1280png.png');
-  }
+
+  
 }
