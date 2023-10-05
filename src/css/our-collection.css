@@ -57,7 +57,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 374px) {
   }
 }
 @media screen and (min-width: 375px) and (max-width: 767px){
-  .our-collection .section{
+  .our-collection{
     margin-top: 80px;
     margin-bottom: 80px;
   }
@@ -104,7 +104,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 /*}*/
 
 @media screen and (min-width: 768px) and (max-width: 1279px){
-  .our-collection .section{
+  .our-collection{
     margin-top: 100px;
     margin-bottom: 100px;
   }
@@ -159,7 +159,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
 }
 
 @media screen and (min-width: 1280px) {
-  .our-collection .section {
+  .our-collection{
     margin-top: 150px;
     margin-bottom: 150px;
   }
