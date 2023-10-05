@@ -262,7 +262,7 @@
   .section-your-order {
     background-repeat: no-repeat;
     background-size: 545px 484px;
-    background-image: url('../img/your-order/element-tablet.png');
+    background-image: url('/img/your-order/element-tablet.png');
     background-position: left bottom;
   }
 }
@@ -271,7 +271,7 @@
   .section-your-order {
     background-repeat: no-repeat;
     background-size: 545px 484px;
-    background-image: url('../img/your-order/element-desktop.png');
+    background-image: url('/img/your-order/element-desktop.png');
     background-position: left bottom;
   }
 }
