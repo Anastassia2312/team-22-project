@@ -1,8 +1,8 @@
 .footer-section {
-    width: 375px;
+    width: 100%;
     height: 649px;
     border-top: 1px solid rgba(252, 249, 249, 0.10);
-    background-image: url("img/menu/footer-logo/footer-logo-mobile.png");
+    background-image: url("/img/footer-logo/footer-logo-mobile.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 452px 171px;
@@ -37,8 +37,7 @@
     font-weight: 400;
     line-height: 1.23;
     letter-spacing: -0.03em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px;
     margin-top: 40px;
     margin-bottom: 80px;
 }
@@ -51,7 +50,7 @@
 screen and (min-resolution:2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .footer-section {
-        background-image: url("img/menu/footer-logo/footer-logo-mobile@2x.png");
+        background-image: url("/img/footer-logo/footer-logo-mobile@2x.png");
     }
 }
 
@@ -63,33 +62,32 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 
 @media screen and (min-width: 768px) {
 
-    .footer-section {
-        width: 768px;
-        height: 370px;
-        background-image: url("img/menu/footer-logo/footer-logo-tablet.png");
-        background-position: right;
-        background-size: 155px 400px;
-    }
+.footer-section {
+    height: 370px;
+    background-image: url("/img/footer-logo/footer-logo-tablet.png");
+    background-position: right;
+    background-size: 155px 400px;
+}
 
 
-    .footer-menu {
-        padding-left: 32px;
-        flex-wrap: nowrap;
-        display: inline-flex;
-        align-items: flex-start;
-        row-gap: 0;
-        gap: 25px;
-    }
+.footer-menu {
+    padding-left: 32px;
+    flex-wrap: nowrap;
+    display: inline-flex;
+    align-items: flex-start;
+    row-gap: 0;
+    gap: 25px;
+}
 
 
-    .footer-main-text {
-        width: 521px;
-        font-size: 54px;
-        line-height: 1.19;
-        letter-spacing: -0.02em;
-        margin-left: 32px;
-        margin-bottom: 40px;
-    }
+.footer-main-text {
+    width: 521px;
+    font-size: 54px;
+    line-height: 1.19;
+    letter-spacing: -0.02em;
+    margin-left: 32px;
+    margin-bottom: 40px;
+}
 
 }
 
@@ -97,35 +95,33 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 screen and (min-resolution:2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .footer-section {
-        background-image: url("img/menu/footer-logo/footer-logo-tablet@2x.png");
+        background-image: url("/img/footer-logo/footer-logo-tablet@2x.png");
     }
 }
 
 @media screen and (min-width: 1280px) {
 
-    .footer-section {
-        width: 1280px;
-        height: 363px;
-        background-image: url("img/menu/footer-logo/footer-logo/footer-logo-desktop-1280.png");
-        background-position: right bottom;
-        background-size: 334px 360px;
-    }
+.footer-section {
+    height: 363px;
+    background-image: url("/img/footer-logo/footer-logo-desktop-1280.png");
+    background-position: right bottom;
+    background-size: 334px 360px;
+}
 
 
-    .footer-menu {
-        padding-left: 100px;
-        padding-right: 702px;
-    }
+.footer-menu {
+    padding-left: 100px;
+    padding-right: 702px;
+}
 
-    .footer-main-text {
-        width: 754px;
-        font-size: 64px;
-        line-height: 1.16;
-        letter-spacing: -0.03em;
-        margin-left: 100px;
-        margin-bottom: 40px;
-
-    }
+.footer-main-text {
+    width: 754px;
+    font-size: 64px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
 
 }
 
@@ -133,17 +129,16 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 screen and (min-resolution:2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .footer-section {
-        background-image: url("img/menu/footer-logo/footer-logo-desktop-1280@2x.png");
+        background-image: url("/img/footer-logo/footer-logo-desktop-1280@2x.png");
     }
 }
 
 @media screen and (min-width: 1440px) {
 
-    .footer-section {
-        width: 1440px;
-        background-image: url("img/menu/footer-logo/footer-logo/footer-logo-desktop-1440.png");
-        background-size: 464px 363px;
-    }
+.footer-section {
+    background-image: url("/img/footer-logo/footer-logo-desktop-1440.png");
+    background-size: 464px 363px;
+}
 
 }
 
@@ -151,6 +146,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
 screen and (min-resolution:2dppx) and (min-width: 1440px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .footer-section {
-        background-image: url("img/menu/footer-logo/footer-logo-desktop-1440@2x.png");
+        background-image: url("/img/footer-logo/footer-logo-desktop-1440@2x.png");
     }
 }

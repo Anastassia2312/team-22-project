@@ -1,6 +1,6 @@
 <!-- HERO SECTION-->
 <section class="hero">
-  <div class="container">
+  <div class="container hero-container">
     <div class="hero-title-and-image-container">
       <div class="hero-and-button-container">
         <h1 class="hero-header">
@@ -10,21 +10,21 @@
         </h1>
 
         <button class="hero-button" type="button">
-          Order
+          <a class="order-link" href="#your-order">Order</a>
           <svg class="hero-button-icon" width="26px" height="20px">
             <use href="./img/sprite.svg#icon-pointer"></use>
           </svg>
         </button>
       </div>
       <img
-        src="./img/hero/girl-mobile.jpg"
+        src="./img/hero/hero-girl-mobile.jpg"
         srcset="
-          ./img/hero/girl-desktop.jpg    392w,
-          ./img/hero/girl-desktop@2x.jpg 784w,
-          ./img/hero/girl-tablet.jpg     413w,
-          ./img/hero/girl-tablet@2x.jpg  826w,
-          ./img/hero/girl-mobile.jpg     335w,
-          ./img/hero/girl-mobile@2x.jpg  670w
+          ./img/hero/hero-girl-desktop.jpg    392w,
+          ./img/hero/hero-girl-desktop@2x.jpg 784w,
+          ./img/hero/hero-girl-tablet.jpg     413w,
+          ./img/hero/hero-girl-tablet@2x.jpg  826w,
+          ./img/hero/hero-girl-mobile.jpg     335w,
+          ./img/hero/hero-girl-mobile@2x.jpg  670w
         "
         sizes="(min-width:1280px) 392px, (min-width:768px) 413px, (max-width:767px) 335px"
         class="hero-big-image"
@@ -37,6 +37,10 @@
       </svg>
       <p class="hero-handmade-text">all embroidery is made by hand</p>
     </div>
-    <img class="hero-small-image" src="./img/hero/hero-small-image.jpg" />
+    <img
+      class="hero-small-image"
+      src="./img/hero/hero-small-image.jpg"
+      alt="decoration"
+    />
   </div>
 </section>
