@@ -58,7 +58,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 374px) {
 }
 @media screen and (min-width: 375px) and (max-width: 767px){
   .our-collection{
-    margin-top: 80px;
+    margin-top: 18px;
     margin-bottom: 80px;
   }
   .our-collection .container{
@@ -105,7 +105,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 
 @media screen and (min-width: 768px) and (max-width: 1279px){
   .our-collection{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
   }
 
@@ -159,10 +159,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
 }
 
 @media screen and (min-width: 1280px) {
-  .our-collection{
-    margin-top: 150px;
-    margin-bottom: 150px;
-  }
 
   /*.our-collection{*/
   /*  position: relative;*/
@@ -193,7 +189,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
     background-position-y: 200px;
     background-repeat: no-repeat;
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 70px auto 150px auto;
   }
 
   .our-collection-list{
