@@ -259,23 +259,16 @@
     flex-direction: column;
   }
 
-  .your-order-background {
+  .section-your-order {
     background-repeat: no-repeat;
     background-size: 545px 484px;
     background-image: url('../img/your-order/element-tablet.png');
     background-position: left bottom;
   }
-
-  /* .section-your-order {
-    background-repeat: no-repeat;
-    background-size: 545px 484px;
-    background-image: url('../img/your-order/element-tablet.png');
-    background-position: left bottom;
-  } */
 }
 
 @media screen and (min-width: 1280px) {
-  .your-order-background {
+  .section-your-order {
     background-repeat: no-repeat;
     background-size: 545px 484px;
     background-image: url('../img/your-order/element-desktop.png');
