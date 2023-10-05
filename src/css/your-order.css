@@ -42,7 +42,6 @@
 
 .your-order-form {
   display: flex;
-  width: 508px;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
