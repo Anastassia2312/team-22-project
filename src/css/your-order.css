@@ -19,22 +19,18 @@
 .your-order-h2 {
   width: 542px;
   color: var(--main-white);
-  font-family: Manrope;
   font-size: 44px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 58px;
-  letter-spacing: -1.32px;
+  line-height: 1.32;
+  letter-spacing: -0.03em;
 }
 
 .span-your-order-h2 {
   color: var(--accent-color);
-  font-family: Manrope;
   font-size: 44px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 58px; /* 131.818% */
-  letter-spacing: -1.32px;
+  line-height: 1.32; /* 131.818% */
+  letter-spacing: -0.03em;
 }
 
 .your-order-img {
@@ -70,7 +66,6 @@
   align-self: stretch;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
-  outline: transparent;
 }
 
 .label-inputs-2 {
@@ -88,7 +83,6 @@
   align-items: flex-start;
   gap: 6px;
   align-self: stretch;
-  outline: transparent;
 }
 
 .input-2 {
@@ -97,28 +91,22 @@
   padding: 14px 16px;
   align-items: flex-start;
   gap: 8px;
-  flex: 1 0 0;
   align-self: stretch;
   border-radius: 8px;
   border: 1px solid rgba(252, 249, 249, 0.1);
 }
 
 .input-text {
-  flex: 1 0 0;
-  color: rgba(252, 249, 249, 0.5);
-  font-family: Manrope;
+  color: var(--main-white);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.32px;
+  letter-spacing: -0.02em;
 }
 
 .input-content {
   display: flex;
   align-items: center;
   gap: 8px;
-  flex: 1 0 0;
+  resize: none;
 }
 
 .button-container {
@@ -136,13 +124,9 @@
   align-items: center;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
-  font-family: Manrope;
   color: var(--main-white);
-  font-size: 16px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
-  letter-spacing: -0.64px;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
 }
 
@@ -176,22 +160,18 @@
   .your-order-h2 {
     width: 335px;
     color: var(--main-white);
-    font-family: Manrope;
     font-size: 32px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 44px;
-    letter-spacing: -0.96px;
+    line-height: 1.38;
+    letter-spacing: -0.03em;
   }
 
   .span-your-order-h2 {
     color: var(--accent-color);
-    font-family: Manrope;
     font-size: 32px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 44px; /* 137.5% */
-    letter-spacing: -0.96px;
+    line-height: 1.38; /* 137.5% */
+    letter-spacing: -0.03em;
   }
 
   .your-order-inputs {
@@ -224,12 +204,10 @@
   .your-order-h2 {
     width: 542px;
     color: var(--main-white);
-    font-family: Manrope;
     font-size: 44px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 58px;
-    letter-spacing: -1.32px;
+    line-height: 1.32;
+    letter-spacing: -0.02em;
   }
 
   /* .your-order-background {
@@ -239,12 +217,10 @@
 
   .span-your-order-h2 {
     color: var(--accent-color);
-    font-family: Manrope;
     font-size: 44px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 58px; /* 131.818% */
-    letter-spacing: -1.32px;
+    line-height: 1.32; /* 131.818% */
+    letter-spacing: -0.02em;
   }
 
   .your-order-img {
