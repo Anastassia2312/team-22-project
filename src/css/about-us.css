@@ -21,16 +21,18 @@
 .about-us-img-menu {
   border-radius: 4px;
 }
-.about-us-img {
-  margin-top: 50px;
+.about-us-container-text {
+    margin-bottom: 50px;
 }
 
 @media screen and (max-width: 767px) {
   .about-us-section {
     padding-top: 80px;
-  }
-  .about-us-container {
     padding-bottom: 62px;
+  }
+  .about-us-section {
+    
+    
     background-repeat: no-repeat;
     background-size: 250px;
     background-image: url(/img/about-us/elements-mobile.png);
@@ -64,9 +66,10 @@
   }
   .about-us-section {
     padding-top: 100px;
-    padding-bottom: 50px;
+    
   }
-  .about-us-container {
+  .about-us-section {
+    padding-bottom: 50px;
     background-size: 368px;
     background-image: url(/img/about-us/elements-desktop.png);
     background-position: 100% 100%;
@@ -77,17 +80,18 @@
 @media screen and (min-width: 1280px) {
     .about-us-section {
         padding-top: 150px;
-        padding-bottom: 80px;}
+        padding-bottom: 80px;
+    background-size: 384px;
+    background-image: url(/img/about-us/elements-desktop1280.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+        }
     .about-us-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     
-    background-size: 384px;
-    background-image: url(/img/about-us/elements-desktop1280.png);
-    background-position: 100% 100%;
-    background-repeat: no-repeat;
   }
   .about-us-img {
     margin-top: unset;
@@ -119,7 +123,7 @@
   .about-us-text-second {
     width: 481px;
   }
-  .about-us-container {
+  .about-us-section {
     max-width: 1440px;
     padding-bottom: 80px;
     background-size: 544px;
