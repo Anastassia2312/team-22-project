@@ -1,16 +1,15 @@
 .footer-section {
-  height: 649px;
+  padding-top: 40px;
   border-top: 1px solid rgba(252, 249, 249, 0.1);
   background-image: url('/img/footer-logo/footer-logo-mobile.png');
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 452px 171px;
+  background-size: 375px;
+  height: 649px;
 }
 
 .footer-menu {
   list-style-type: none;
-  padding-top: 40px;
-  padding-left: 20px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 25px;
@@ -18,9 +17,7 @@
 
 .footer-item {
   color: var(--main-white);
-  font-family: 'Manrope', sans-serif;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.28;
   text-transform: uppercase;
@@ -65,7 +62,6 @@
   }
 
   .footer-menu {
-    padding-left: 32px;
     flex-wrap: nowrap;
     display: inline-flex;
     align-items: flex-start;
@@ -99,10 +95,8 @@
     background-size: 334px 360px;
   }
 
-  .footer-menu {
-    padding-left: 100px;
-    padding-right: 702px;
-  }
+  .footer-menu
+
 
   .footer-main-text {
     width: 754px;
