@@ -33,7 +33,9 @@
   .about-us-section {
     background-repeat: no-repeat;
     background-size: 250px;
-    background-image: url('/img/about-us/elements-mobile.png');
+    background-image: url(/img/about-us/elements-mobile.png);
+    background-position: right bottom;
+
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -64,7 +66,10 @@
   .about-us-section {
     padding-bottom: 50px;
     background-size: 368px;
-    background-image: url('/img/about-us/elements-desktop.png');
+
+    background-image: url(/img/about-us/elements-tablet.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
   }
 }
 
@@ -72,12 +77,16 @@
   .about-us-section {
     padding-top: 150px;
     padding-bottom: 80px;
-    background-size: 384px;
-    background-image: url('/img/about-us/elements-desktop1280.png');
-    background-position: 100% 100%;
+
+    /* background-size: 384px; */
+    background-image: url(/img/about-us/elements-desktop1280.png);
+    background-position: right bottom;
     background-repeat: no-repeat;
   }
   .about-us-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
   }
   .about-us-img {
     margin-top: unset;
