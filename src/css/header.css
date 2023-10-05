@@ -88,6 +88,12 @@
     gap: 25px;
   }
 
+  .header-tel {
+    color: var(--main-white);
+      font-size: 14px;
+      line-height: 1.43;
+  }
+
   .header-tel-wrap {
     display: flex;
     padding: 14px 28px;
