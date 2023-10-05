@@ -18,7 +18,7 @@
 
 .your-order-h2 {
   width: 542px;
-  color: var(--white, #fcf9f9);
+  color: var(--main-white);
   font-family: Manrope;
   font-size: 44px;
   font-style: normal;
@@ -28,7 +28,7 @@
 }
 
 .span-your-order-h2 {
-  color: var(--white, #ecd979);
+  color: var(--accent-color);
   font-family: Manrope;
   font-size: 44px;
   font-style: normal;
@@ -62,7 +62,7 @@
 }
 
 .section-your-order-inputs-1 {
-  background-color: #1c2225;
+  background-color: var(--main-color);
   display: flex;
   padding: 14px 16px;
   align-items: flex-start;
@@ -70,6 +70,7 @@
   align-self: stretch;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
+  outline: transparent;
 }
 
 .label-inputs-2 {
@@ -87,10 +88,11 @@
   align-items: flex-start;
   gap: 6px;
   align-self: stretch;
+  outline: transparent;
 }
 
 .input-2 {
-  background-color: #1c2225;
+  background-color: var(--main-color);
   display: flex;
   padding: 14px 16px;
   align-items: flex-start;
@@ -125,7 +127,7 @@
 }
 
 .your-order-button {
-  background-color: #1c2225;
+  background-color: var(--main-color);
   gap: 10px;
   display: flex;
   width: 168px;
@@ -135,7 +137,7 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   font-family: Manrope;
-  color: #fcf9f9;
+  color: var(--main-white);
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -147,15 +149,15 @@
 .your-order-button:hover,
 .your-order-button:focus {
   border-radius: 15px;
-  border: 1px solid var(--yellow, #ecd979);
-  transition: color var(--yellow) 250ms;
+  border: 1px solid var(--accent-color);
+  transition: color var(--accent-color) 250ms;
 }
 
 .your-order-svg {
   width: 26px;
   height: 20px;
   flex-shrink: 0;
-  fill: var(--yellow, #ecd979);
+  fill: var(--accent-color);
 }
 
 @media screen and (max-width: 767px) {
@@ -173,7 +175,7 @@
 
   .your-order-h2 {
     width: 335px;
-    color: var(--white, #fcf9f9);
+    color: var(--main-white);
     font-family: Manrope;
     font-size: 32px;
     font-style: normal;
@@ -183,7 +185,7 @@
   }
 
   .span-your-order-h2 {
-    color: var(--white, #ecd979);
+    color: var(--accent-color);
     font-family: Manrope;
     font-size: 32px;
     font-style: normal;
@@ -221,7 +223,7 @@
 @media screen and (min-width: 768px) and (max-width: 1278px) {
   .your-order-h2 {
     width: 542px;
-    color: var(--white, #fcf9f9);
+    color: var(--main-white);
     font-family: Manrope;
     font-size: 44px;
     font-style: normal;
@@ -236,7 +238,7 @@
   } */
 
   .span-your-order-h2 {
-    color: var(--white, #ecd979);
+    color: var(--accent-color);
     font-family: Manrope;
     font-size: 44px;
     font-style: normal;

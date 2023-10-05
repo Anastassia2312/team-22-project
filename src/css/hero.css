@@ -44,7 +44,7 @@
 
 .hero-button:hover,
 .hero-button:focus {
-  border: 1px solid var(--yellow, #ecd979);
+  border: 1px solid var(--accent-color);
 }
 .hero-small-image {
   display: none;
