@@ -56,8 +56,10 @@
     background-image: url('/img/our-collection-img/ornament-our-collection375px@2x.png');
   }
 }
-@media screen and (min-width: 375px) and (max-width: 767px) {
-  .our-collection .section {
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+  .our-collection{
+
     margin-top: 80px;
     margin-bottom: 80px;
   }
@@ -103,8 +105,11 @@
 /*  }*/
 /*}*/
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  .our-collection .section {
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+  .our-collection{
+
+
     margin-top: 100px;
     margin-bottom: 100px;
   }
@@ -159,7 +164,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .our-collection .section {
+  .our-collection{
     margin-top: 150px;
     margin-bottom: 150px;
   }
