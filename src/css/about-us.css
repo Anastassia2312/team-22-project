@@ -110,7 +110,7 @@
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
   screen and (min-resolution: 2dppx) and (min-width: 1280px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
-  .about-us-section {
+  .about-us-container {
     background-image: url(/img/about-us/elements@2x-desktop1280png.png);
   }
 }
@@ -119,7 +119,7 @@
   .about-us-text-second {
     width: 481px;
   }
-  .about-us-section {
+  .about-us-container {
     max-width: 1440px;
     padding-bottom: 80px;
     background-size: 544px;
@@ -131,7 +131,7 @@
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
   screen and (min-resolution: 2dppx) and (min-width: 1440px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
-  .about-us-section {
+  .about-us-container {
     background-image: url(/img/about-us/elements@2x-desktop1280png.png);
   }
 }
