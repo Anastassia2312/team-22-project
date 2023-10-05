@@ -1,9 +1,10 @@
 .hero {
-  position: relative;
   padding-top: 60px;
   padding-bottom: 0;
 }
-
+.hero-container {
+  position: relative;
+}
 .hero-header {
   width: 335px;
   color: var(--main-white);
@@ -60,8 +61,8 @@
     gap: 16px;
     align-items: center;
     position: absolute;
-    top: 80px;
-    right: 32px;
+    top: 0;
+    right: 0;
     width: 115px;
   }
   .hero-handmade-icon {
@@ -92,7 +93,7 @@
   .hero-small-image {
     display: block;
     position: absolute;
-    right: 32px;
+    right: 0;
     bottom: 0;
   }
 }
@@ -108,21 +109,21 @@
     gap: 40px;
   }
   .hero-handmade {
-    top: 118px;
-    right: 100px;
+    top: 0;
+    right: 0;
   }
   .hero-header {
     width: 518px;
     margin-top: 94px;
   }
   .hero-small-image {
-    right: 100px;
+    right: 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .hero-handmade {
-    top: 166px;
+    top: 0;
   }
   .hero-header {
     width: 630px;
