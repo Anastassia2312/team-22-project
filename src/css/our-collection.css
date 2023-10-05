@@ -207,8 +207,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-screen and (min-resolution: 2dppx) and (min-width: 1280px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
   .our-collection{
     background-image: url('/img/our-collection-img/ornament-our-collection1280px@2x.png');
     background-size: auto 300px;
