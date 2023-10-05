@@ -1,5 +1,5 @@
-<section class="section-your-order container">
-    <div class="your-order-container">
+<section class="section-your-order" id="your-order-nav">
+    <div class="your-order-container your-order-background container">
         <div class="your-order-inputs">
             <div class="container-your-order-h2">
                 <h2 class="your-order-h2"> <span class="span-your-order-h2">Your order</span> is our priority:
@@ -9,16 +9,16 @@
             </div>
             <form class="your-order-form">
                 <label class="label-inputs-1">
-                    <input class="section-your-order-inputs-1 input-text input-content" type="tap-your-name"
-                        name="text-name" placeholder="Enter your full name">
+                    <input class="section-your-order-inputs-1 input-text input-content" type="text" name="text-name"
+                        placeholder="Enter your full name">
                 </label>
                 <label class="label-inputs-1">
                     <input class="section-your-order-inputs-1 input-text input-content" type="email"
                         name="subscribe-email" placeholder="Enter your email">
                 </label>
                 <label class="label-inputs-2">
-                    <input class="section-your-order-inputs-2 input-2 input-text input-content" type="comments"
-                        type="comments" placeholder="Comements">
+                    <textarea class="section-your-order-inputs-2 input-2 input-text input-content" name="Comements"
+                        id="comments" placeholder="Comements" cols="30" rows="10"></textarea>
                 </label>
             </form>
             <div class="button-container">
@@ -31,8 +31,13 @@
             </div>
         </div>
         <div class="container-image-your-order">
-            <img class="your-order-img" srcset="./img/your-order/Rectangle 42481@2x.jpg"
-                src="./img/your-order/Rectangle 42481.jpg" alt="" width="524" height="521">
+            <img class="your-order-img" srcset="
+                    ./img/your-order/rectangle-desktop.jpg 524w,
+                    ./img/your-order/rectangle-desktop@2x.jpg 524w,
+                    ./img/your-order/rectangle-tablet.jpg 638w,
+                    ./img/your-order/rectangle-tablet@2x.jpg 638w"
+                sizes="(min-width: 1280px) 524px ,(min-width: 768px) 638px" src="./img/your-order/rectangle-desktop.jpg"
+                alt="" width="524" height="521">
         </div>
     </div>
 </section>
