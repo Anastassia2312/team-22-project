@@ -1,12 +1,12 @@
-.our-collection-title{
-  color: #FCF9F9;
+.our-collection-title {
+  color: var(--main-white);
   font-size: 32px;
   font-weight: 500;
   line-height: 1.37; /* 137.5% */
   letter-spacing: -0.03em;
   text-align: center;
 }
-.our-collection-list{
+.our-collection-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -14,12 +14,12 @@
   margin-top: 40px;
   margin-bottom: 80px;
 }
-.our-collection-list-item img{
+.our-collection-list-item img {
   border-radius: 4px;
 }
-.our-collection-products{
+.our-collection-products {
   overflow: hidden;
-  color:  #FCF9F9;
+  color: var(--main-white);
   text-overflow: ellipsis;
   font-size: 14px;
   font-weight: 500;
@@ -29,50 +29,52 @@
   margin-top: 18px;
   margin-bottom: 8px;
 }
-.our-collection-price{
-  color: rgba(252, 249, 249, 0.40);
+.our-collection-price {
+  color: var(--gray);
   font-size: 14px;
   font-weight: 400;
   line-height: 1; /* 100% */
   letter-spacing: 0.02em;
 }
-.model-of-collection{
+.model-of-collection {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-@media screen and (max-width: 374px){
-  .our-collection .container{
-    background-image: url("./img/our-collection-img/ornament-our-collection375px.png");
+@media screen and (max-width: 374px) {
+  .our-collection .container {
+    background-image: url('/img/our-collection-img/ornament-our-collection375px.png');
     max-width: 375px;
     background-position-y: 9.8%;
     background-repeat: no-repeat;
   }
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 374px),
-screen and (min-resolution: 2dppx) and (max-width: 374px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 374px) {
+  screen and (min-resolution: 2dppx) and (max-width: 374px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 374px) {
   .our-collection .container {
-    background-image: url("./img/our-collection-img/ornament-our-collection375px@2x.png");
+    background-image: url('/img/our-collection-img/ornament-our-collection375px@2x.png');
   }
 }
+
 @media screen and (min-width: 375px) and (max-width: 767px){
   .our-collection{
+
     margin-top: 80px;
     margin-bottom: 80px;
   }
-  .our-collection .container{
-    background-image: url("./img/our-collection-img/ornament-our-collection375px.png");
+  .our-collection .container {
+    background-image: url('/img/our-collection-img/ornament-our-collection375px.png');
     max-width: 375px;
     background-position-y: 298px;
     background-repeat: no-repeat;
   }
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .our-collection .container {
-    background-image: url("./img/our-collection-img/ornament-our-collection375px@2x.png");
+    background-image: url('/img/our-collection-img/ornament-our-collection375px@2x.png');
     background-size: 72px 177px;
   }
 }
@@ -103,8 +105,11 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 /*  }*/
 /*}*/
 
+
 @media screen and (min-width: 768px) and (max-width: 1279px){
   .our-collection{
+
+
     margin-top: 100px;
     margin-bottom: 100px;
   }
@@ -133,27 +138,27 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   /*  }*/
   /*}*/
 
-  .our-collection .container{
-    background-image: url("./img/our-collection-img/ornament-our-collection768px.png");
+  .our-collection .container {
+    background-image: url('/img/our-collection-img/ornament-our-collection768px.png');
     background-position-y: 200px;
     background-repeat: no-repeat;
   }
 
-  .our-collection-list{
+  .our-collection-list {
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 100px;
   }
-  .our-collection-list-item{
+  .our-collection-list-item {
     width: calc((100% - 20px) / 2);
   }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px),
-screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1279px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1279px) {
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1279px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1279px) {
   .our-collection .container {
-    background-image: url("./img/our-collection-img/ornament-our-collection768px@2x.png");
+    background-image: url('/img/our-collection-img/ornament-our-collection768px@2x.png');
     background-size: auto 300px;
   }
 }
@@ -188,21 +193,21 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
   /*  }*/
   /*}*/
 
-  .our-collection{
-    background-image: url("./img/our-collection-img/ornament-our-collection1280px.png");
+  .our-collection {
+    background-image: url('/img/our-collection-img/ornament-our-collection1280px.png');
     background-position-y: 200px;
     background-repeat: no-repeat;
     max-width: 1280px;
     margin: 0 auto;
   }
 
-  .our-collection-list{
+  .our-collection-list {
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 150px;
     row-gap: 40px;
   }
-  .our-collection-list-item{
+  .our-collection-list-item {
     width: calc((100% - 40px) / 3);
   }
 }
@@ -213,12 +218,12 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
     background-image: url('/img/our-collection-img/ornament-our-collection1280px@2x.png');
     background-size: auto 300px;
   }
-  .our-collection .container{
+  .our-collection .container {
     background-repeat: no-repeat;
   }
 }
-@media screen and (min-width: 1440px){
-  .our-collection{
+@media screen and (min-width: 1440px) {
+  .our-collection {
     background-position-y: 210px;
     max-width: 1440px;
   }
