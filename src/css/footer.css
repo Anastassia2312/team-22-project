@@ -25,7 +25,7 @@
 }
 
 .footer-main-text {
-  max-width: 335px;
+  width: 335px;
   color: var(--main-white);
   font-size: 44px;
   line-height: 1.23;

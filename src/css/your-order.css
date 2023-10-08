@@ -17,7 +17,7 @@
 }
 
 .your-order-h2 {
-  max-width: 542px;
+  width: 542px;
   color: var(--main-white);
   font-size: 44px;
   font-weight: 500;
@@ -157,7 +157,7 @@
   }
 
   .your-order-h2 {
-    max-width: 335px;
+    width: 335px;
     color: var(--main-white);
     font-size: 32px;
     font-weight: 500;
