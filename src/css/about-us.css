@@ -13,7 +13,7 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.04em;
-  width: 335px;
+  max-width: 335px;
 }
 .about-us-text-first {
   margin-bottom: 20px;
@@ -35,7 +35,6 @@
     background-size: 250px;
     background-image: url(/img/about-us/elements-mobile.png);
     background-position: right bottom;
-
   }
 
   @media screen and (min-resolution: 192dpi) {

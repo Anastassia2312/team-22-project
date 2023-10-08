@@ -25,7 +25,7 @@
 }
 
 .footer-main-text {
-  width: 335px;
+  max-width: 335px;
   color: var(--main-white);
   font-size: 44px;
   line-height: 1.23;
@@ -95,10 +95,7 @@
     background-size: 334px 360px;
   }
 
-  .footer-menu
-
-
-  .footer-main-text {
+  .footer-menu .footer-main-text {
     width: 754px;
     font-size: 64px;
     line-height: 1.16;

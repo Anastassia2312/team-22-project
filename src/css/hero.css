@@ -6,7 +6,7 @@
   position: relative;
 }
 .hero-header {
-  width: 335px;
+  max-width: 335px;
   color: var(--main-white);
   font-size: 44px;
   font-style: normal;
