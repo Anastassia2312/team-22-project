@@ -6,7 +6,6 @@
   position: relative;
 }
 .hero-header {
-  width: 335px;
   color: var(--main-white);
   font-size: 44px;
   font-style: normal;
@@ -62,7 +61,7 @@
     align-items: center;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 32px;
     width: 115px;
   }
   .hero-handmade-icon {
@@ -93,7 +92,7 @@
   .hero-small-image {
     display: block;
     position: absolute;
-    right: 0;
+    right: 32px;
     bottom: 0;
   }
 }
