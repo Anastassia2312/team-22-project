@@ -25,12 +25,10 @@
 }
 
 .footer-main-text {
-  width: 335px;
   color: var(--main-white);
   font-size: 44px;
   line-height: 1.23;
   letter-spacing: -0.03em;
-  margin-left: 20px;
   margin-top: 40px;
   margin-bottom: 80px;
 }
